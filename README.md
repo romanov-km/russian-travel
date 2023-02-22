@@ -15,3 +15,6 @@
 Проект делался по макету ссылка указана ниже:
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
+GitHub Pages ссылка указана ниже:
+* [Ссылка на сайт в github Pages](https://romanov-km.github.io/russian-travel/)
+
