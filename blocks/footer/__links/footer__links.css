@@ -1,0 +1,10 @@
+.footer__links :nth-last-child(1) {
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 701px) {
+  .footer__links {
+    display: grid;
+    gap: 32px;
+  }
+}
