@@ -18,7 +18,7 @@
 
 .cover__overlay-link::after {
   content: "";
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   width: 100%;
   position: absolute;
   top: 0px;
