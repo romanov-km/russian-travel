@@ -7,13 +7,16 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
+    
     margin: 0px 286px 0px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0px 24px 0px 24px;
+    max-width: 720px;
+    align-self: center;
+    margin: 0px auto;
   }
 }
 
