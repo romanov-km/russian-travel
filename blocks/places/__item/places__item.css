@@ -3,32 +3,30 @@
   margin-top: 80px;
   max-width: 984px;
   display: grid;
-  /* grid-template-columns: min-content 1fr;
-  grid-template-rows: min-content 1fr; */
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  gap: 40px 48px;
+  gap: 48px 40px;
   justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
   .places__item {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    gap: 32px 48px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__item {
     margin-top: 72px;
-    gap: 28px 48px;
-    grid-template-columns: minmax(288px, 340px) minmax(320px, 352px);
+    gap: 48px 28px;
+    grid-template-columns: minmax(320px, 340px) minmax(320px, 352px);
   }
 }
 
 @media screen and (max-width: 657px) {
   .places__item {
     margin-top: 50px;
-    gap: 32px 32px;
+    gap: 32px;
     grid-template-columns: 1fr;
   }
 }

@@ -9,12 +9,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 337px) {
   .cover__title {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    box-sizing: border-box;
   }
 }

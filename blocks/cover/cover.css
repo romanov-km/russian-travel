@@ -1,6 +1,6 @@
 .cover {
   margin: 0 auto;
-  padding: 92px 48px 92px 48px;
+  padding: 92px 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    padding: 90px 0px 88px;
+    padding: 90px 0px 88px 0px;
   }  
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    padding: 66px 0px 64px;
+    padding: 66px 0px 64px 0px;
   }  
 }
