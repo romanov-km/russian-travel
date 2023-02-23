@@ -1,0 +1,8 @@
+.header__list-item {
+    margin: 0px 0px 6px 18px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__list-item {
+    }
+}
