@@ -3,30 +3,29 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 56px;
-  margin-bottom: 92px;
-  margin-right: 148px;
-  margin-left: 148px;
+  padding-top: 56px;
+  padding-bottom: 92px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    margin-top: 48px;
-    margin-right: 48px;
-    margin-left: 48px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin-bottom: 88px;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-bottom: 88px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin-bottom: 64px;
+    padding-bottom: 64px;
   }
 }
