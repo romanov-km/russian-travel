@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 337px) {
+@media screen and (max-width: 505px) {
   .cover__title {
     padding-left: 18px;
     padding-right: 18px;

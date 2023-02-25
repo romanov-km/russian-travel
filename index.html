@@ -50,53 +50,54 @@
       </div>
     </section>
 
-    <section class="photo-grid">
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-train.jpg" class="photo-grid__image" alt="Вид из окна плацкартного вагона.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__image" alt="Кучевые облака над вершинами заснеженных гор.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-tuman.jpg" class="photo-grid__image" alt="Соба стоящая на вершине стога сена в поле.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-sochi.jpg" class="photo-grid__image" alt="Хвойный лес в тумане на горном склоне.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-arisa.jpg" class="photo-grid__image" alt="Колесо буханки на льду Байкала.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-baikal.jpg" class="photo-grid__image" alt="Песчаный берег Байкала летом.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-elbrus.jpg" class="photo-grid__image" alt="Заснеженная вершина Эльбруса в пасмурную погоду.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__image" alt="Знак пешедного перехода на фоне множества волнорезов.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__image" alt="Коричневые горы на Камчатке в тумане.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__image" alt="Заснеженный вулкан на Камчатке.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__image" alt="Скалистый обрыв у заснеженного Байкала.">
-      </div>
-      <div class="photo-grid__item">
-        <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__image" alt="Зеленый горный хребет Ергаков в облаках.">
-      </div>
+    <section class="photo-grid" aria-label="photo-grid">
+      <ul class="photo-grid__list">
+        <li>
+          <img src="./images/photo-grid-train.jpg" class="photo-grid__image" alt="Вид из окна плацкартного вагона.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__image" alt="Кучевые облака над вершинами заснеженных гор.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-tuman.jpg" class="photo-grid__image" alt="Соба стоящая на вершине стога сена в поле.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-sochi.jpg" class="photo-grid__image" alt="Хвойный лес в тумане на горном склоне.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-arisa.jpg" class="photo-grid__image" alt="Колесо буханки на льду Байкала.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-baikal.jpg" class="photo-grid__image" alt="Песчаный берег Байкала летом.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-elbrus.jpg" class="photo-grid__image" alt="Заснеженная вершина Эльбруса в пасмурную погоду.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__image" alt="Знак пешедного перехода на фоне множества волнорезов.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__image" alt="Коричневые горы на Камчатке в тумане.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__image" alt="Заснеженный вулкан на Камчатке.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__image" alt="Скалистый обрыв у заснеженного Байкала.">
+        </li>
+        <li>
+          <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__image" alt="Зеленый горный хребет Ергаков в облаках.">
+        </li>
+      </ul>
+      
     </section>
 
-    <section class="places">
-      <div class="places__item">
+    <section class="places" aria-label="places">
+      <article class="places__item">
         <h2 class="places__title">Куршская коса</h2>
         <div class="places__website">
-          <p class="places__url-heading">URL</p>
-          <div class="places__link">
-            <a href="http://park-kosa.ru">park-kosa.ru</a>
-          </div>
+          <p class="places__url-heading">url</p>
+          <a href="http://park-kosa.ru" class="places__link">park-kosa.ru</a>  
         </div>
         <img class="places__image" src="./images/place-kosa.jpg" alt="Пни в воде Куршской косы.">
         <div class="places__paragraphs">
@@ -107,14 +108,12 @@
             На&nbsp;этом Калининградская область не&nbsp;заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там&nbsp;же по&nbsp;соседству&nbsp;&mdash; самая западная точка России, Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах стального, прохладного моря.
           </p>
         </div>
-      </div>
-      <div class="places__item">
+      </article>
+      <article class="places__item">
         <h2 class="places__title">Кольский</h2>
         <div class="places__website">
-          <p class="places__url-heading">URL</p>
-          <div class="places__link">
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
-          </div>
+          <p class="places__url-heading">url</p>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link">National Geographic</a>
         </div>
         <img class="places__image" src="./images/place-kolsky.jpg" alt="Заснеженное побережье на фоне гор.">
         <div class="places__paragraphs">
@@ -128,14 +127,12 @@
             в Мурманск.
           </p>
         </div>
-      </div>
-      <div class="places__item">
+      </article>
+      <article class="places__item">
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
-          <p class="places__url-heading">URL</p>
-          <div class="places__link">
-            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
-          </div>
+          <p class="places__url-heading">url</p>
+          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="places__link">YouTube</a>
         </div>
         <img class="places__image" src="./images/place-altai.jpg" alt="Открытый макбук на фоне буйной зелени.">
         <div class="places__paragraphs">
@@ -149,14 +146,12 @@
 флоры и фауны. По&nbsp;лесам Алтая бродят лоси, над хребтами летают орлы, а&nbsp;на&nbsp;равнинах пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже обитатели Алтайского края.
           </p>
         </div>
-      </div>
-      <div class="places__item">
+      </article>
+      <article class="places__item">
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__website">
-          <p class="places__url-heading">URL</p>
-          <div class="places__link">
-            <a href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
-          </div>
+          <p class="places__url-heading">url</p>
+          <a href="https://vk.com/baikalmile" class="places__link">https://vk.com/baikalmile</a>
         </div>
         <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Множество трещин на синем льду Байкала.">
         <div class="places__paragraphs">
@@ -166,14 +161,12 @@
           <p class="places__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для 
             соревнований по скийорингу. Это такой вид спорта, когда лыжник&nbsp;привязывает себя к мотоциклу,&nbsp;и тандем старается развить как можно большую скорость на льду. В марте 2019 года на фестивале &laquo;Байкальская миля&raquo; был поставлен мировой рекорд &mdash; 197.011 км/ч.</p>
         </div>
-      </div>
-      <div class="places__item">
+      </article>
+      <article class="places__item">
         <h2 class="places__title">Карелия</h2>
         <div class="places__website">
-          <p class="places__url-heading">URL</p>
-          <div class="places__link">
-            <a href="http://vodlozero.ru/">http://vodlozero.ru/</a>
-          </div>
+          <p class="places__url-heading">url</p>
+          <a href="http://vodlozero.ru/" class="places__link">http://vodlozero.ru/</a>
         </div>
         <img class="places__image" src="./images/place-karelia.jpg" alt="Размытая ветвь на фоне Водлозера и леса.">
         <div class="places__paragraphs">
@@ -185,9 +178,9 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
           </p>
-    
+  
         </div>
-      </div>
+      </article>
     </section>
 
     <section class="cover">

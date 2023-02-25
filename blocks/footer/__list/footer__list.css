@@ -3,7 +3,7 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    padding: 0;    
+    padding: 0;   
 }
 
 .footer__list :nth-child(1) {
