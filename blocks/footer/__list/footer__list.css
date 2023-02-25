@@ -1,0 +1,23 @@
+.footer__list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;    
+}
+
+.footer__list :nth-child(1) {
+    padding-left: 0px;
+}
+
+.footer__list :last-child {
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 701px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}
+
+
