@@ -8,7 +8,7 @@
   color: #FFF;
 }
 
-.places__link :hover {
+.places__link:hover {
   opacity: 0.8;
 }
 
